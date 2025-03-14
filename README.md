@@ -1,6 +1,6 @@
 ### Bayesian optimization for conformational search
 
-Here you can find a source code for Bayesian optimization with Gaussian Process Conformational Search method. It allows one to perform conformational search on any level of theory (available in ORCA) via Bayessian Optimization. 
+Here you can find a source code for Bayesian optimization with Gaussian Process Conformational Ensemble Augmentation method. It allows one to perform conformational ensemble augmentation on any level of theory (available in ORCA) via Bayessian Optimization. 
 
 ## Installation
 
@@ -17,7 +17,7 @@ Also method requiers installed ORCA to perform calculations and Slurm workload m
 
 ## Usage
 
-Conformational search configures from config.yaml file, that should be placed nearby conf_search.py. It has several properties:
+Conformational ensemble augmentation configures from config.yaml file, that should be placed nearby conf_search.py. It has several properties:
 
 * exp_name : str - name of experiment. It should be prefix for all files, associated with current evaluation of method
 * mol_file_name : str - name of .mol file of molecule for conformational search
