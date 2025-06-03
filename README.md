@@ -1,4 +1,4 @@
-### Bayesian optimization for conformational search
+# Physics-Informed Bayesian Optimization for Conformational Ensemble Augmentation
 
 Here you can find a source code for Bayesian optimization with Gaussian Process Conformational Ensemble Augmentation method. It allows one to perform conformational ensemble augmentation on any level of theory (available in ORCA) via Bayessian Optimization. 
 
